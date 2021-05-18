@@ -13,6 +13,8 @@ document.addEventListener(
       event.target.classList.add("o");
       playerOnesTurn = !playerOnesTurn;
     }
+    document.querySelector('.red').classList.toggle('invis');
+    document.querySelector('.blue').classList.toggle('invis');
   },
   false
 );
